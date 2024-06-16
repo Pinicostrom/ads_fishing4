@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head charset="UTF-8">
+		<title>Contato</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.jpg"></h1>
+				<h1 id="logo_title">ADS Fishing</h1>
+
+				<nav class="contato">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="produtos.html">PRODUTOS</a></li>
+						<li><a href="contatos.html">CONTATO</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome e sobrenome</label required>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="text" id="email" class="input-padrao" required>
+
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" class="input-padrao" required>
+
+				<label for="mensagem">Sugestões</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Conte-nos sua experiência com os produtos, dê sugestões e/ou relate algum problema"></textarea>
+
+				<div>
+					<p>Como prefere o nosso contato?</p>
+
+					<label class="checkbox"><input type="checkbox"> Email</label>
+					
+					<label class="checkbox"><input type="checkbox"> Telefone</label>
+					
+					<label class="checkbox"><input type="checkbox"> Whatsapp</label>
+				</div>
+
+				<fieldset>
+					<legend class="horario">Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+				<br>
+
+				<label class="checkbox"><input type="checkbox"> Gostaria de receber mensagens de ofertas ou novidades por email?</label>
+
+				<input type="submit" value="Enviar formulario" class="enviar">
+			</form>
+		</main>
+
+		<footer>
+			<p class="copyright">Copyright ADS Fishing - 2024</p>
+		</footer>
+	</body>
+</html>

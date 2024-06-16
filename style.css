@@ -1,0 +1,198 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+    background: linear-gradient(#CCCCCC, ghostwhite);
+    padding: 30px;
+}
+
+#logo_title {
+    font-size: 35px;
+    text-align:left;
+    font-weight: bold;
+    color: azure;
+}
+
+#objetivo {
+    text-align: center;
+	font-weight: bold;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 2px crimson;
+  }
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+i {
+    font-style: italic;
+    color:crimson;
+}
+
+#home {
+    position: absolute;
+    top: 140px;
+    right: 50px;
+}
+
+#home li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+#home a {
+    text-transform: uppercase;
+    color: azure;
+    font-weight: bold;
+    font-size: larger;
+    font-style: 22px;
+    text-decoration: none;
+}
+
+.location{
+    text-align: center;
+    padding: 3em 30px;
+    background: ghostwhite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#location{
+    font-weight: bold;
+    text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+    clear: left;
+    color: rgba(0,0,0,0.3);
+}
+
+.pescaria{
+    text-align: center;
+    padding: 10%;
+    background: ghostwhite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#clientes{
+    font-weight: bold;
+    text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+    clear: left;
+    color: rgba(0,0,0,0.3);
+}
+
+#foto{
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px black;
+}
+
+#foto:hover{
+    opacity: 1;
+}
+
+/* definições da página de contato */
+
+header {
+    color:azure;
+    background-color:cadetblue;
+    text-align:left;
+    font-size: larger;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form p {
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%
+}
+
+.checkbox {
+	margin: 10px 0;
+}
+
+.horario{
+    margin: 10px 0;
+}
+
+.contato{
+    position: absolute;
+    top: 140px;
+    right: 50px;
+}
+
+.contato li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.contato a {
+    text-transform: uppercase;
+    color: azure;
+    font-weight: bold;
+    font-style: 22px;
+    font-size:larger;
+    text-decoration: none;
+}
+
+.enviar {
+	width: 20%;
+	padding: 15px 0;
+	background: cadetblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkcyan;
+}
+
+footer{
+    text-align: center;
+    background: cadetblue;
+    padding: 40px;
+}
+
+.copyright {
+    color: azure;
+    font-size: 40px;
+    margin: 20px 0 0 0;
+}
